@@ -20,7 +20,7 @@ const forecast = (latitude, longitude, callback) => {
          Humidity: ${body.current.humidity}%,
          Precipitation: ${body.current.precip}mm,
          Pressure: ${Math.trunc((body.current.pressure) * 100 / 133.322)}mmHg,
-         Wind Speed: ${body.current.wind_speed}km/h,
+         Wind Speed: ${body.current.wind_speed} km/h,
          Wind Degree: ${body.current.wind_degree}°,
          Wind Direction: ${body.current.wind_dir},
          Cloudcover: ${body.current.cloudcover}%,
