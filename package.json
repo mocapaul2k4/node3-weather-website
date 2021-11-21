@@ -1,7 +1,6 @@
 {
   "name": "web-server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node src/app.js"
@@ -15,5 +14,15 @@
     "request": "^2.65.0",
     "to": "^0.2.9",
     "update": "^0.4.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mocapaul2k4/node3-weather-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mocapaul2k4/node3-weather-website/issues"
+  },
+  "homepage": "https://github.com/mocapaul2k4/node3-weather-website#readme",
+  "description": ""
 }
