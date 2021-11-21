@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"node src/app.js"
+    "start": "node src/app.js"
   },
   "author": "Paul B.",
   "license": "ISC",
@@ -12,6 +12,8 @@
     "express": "^4.16.4",
     "hbs": "^4.1.2",
     "nodemon": "^2.0.15",
-    "request": "^2.88.0"
+    "request": "^2.65.0",
+    "to": "^0.2.9",
+    "update": "^0.4.2"
   }
 }
